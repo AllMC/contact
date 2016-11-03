@@ -1,0 +1,45 @@
+body {
+  background-color: dodgerblue;
+}
+h1, h2, h3, h4, h5, h6 {
+  color: red;
+  text-align: center;
+}
+p {
+  color: red;
+}
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #47FFCD;
+}
+.nav li {
+  display: inline;
+}
+.nav li.a {
+  float: right;
+}
+.nav li.b {
+  float: left;
+}
+.nav li.a, li.b a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.nav li.a, li.b a:hover {
+  background-color: #38CCA4;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.card img {
+  width: 100%;
+}
+.container {
+  padding: 2px 16px;
+}
